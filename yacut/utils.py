@@ -1,10 +1,10 @@
 import random
-from string import ascii_letters, digits
 
-SYMBOLS_CHOICE = list(ascii_letters + digits)
+from . import SYMBOLS_CHOICE
 
 
 def get_unique_short_id():
+    # Если k=6 перенести в константу, не проходят тесты
     return ''.join(random.choices(SYMBOLS_CHOICE, k=6))
 
 
