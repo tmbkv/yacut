@@ -1,13 +1,11 @@
 import random
-import string
 from string import ascii_letters, digits
 
 SYMBOLS_CHOICE = list(ascii_letters + digits)
 
 
 def get_unique_short_id():
-    short = ''.join(random.choices(string.ascii_letters + digits, k=6))
-    return short
+    return ''.join(random.choices(SYMBOLS_CHOICE, k=6))
 
 
 def check(custom_id):
