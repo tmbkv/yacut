@@ -1,6 +1,7 @@
 # Scrapy Parser PEP 
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
-[![Scrapy](https://img.shields.io/badge/-Scrapy-blue)](https://docs.scrapy.org/en/latest/index.html)
+[![Flask](https://img.shields.io/badge/-Scrapy-blue)](https://flask.palletsprojects.com/en/2.3.x/)
+[![SQLAlchemy](https://img.shields.io/badge/-Scrapy-blue)](https://www.sqlalchemy.org/)
 ## Проект асинхронного парсинга документов PEP с помощью фреймворка Scrapy 
 Парсинг документов PEP осуществляется с сайта **https://peps.python.org/**
 
