@@ -5,6 +5,7 @@ from wtforms.validators import DataRequired, Length, Optional
 
 MAX_LENGTH_URL = 16
 
+
 class URLForm(FlaskForm):
     original_link = URLField(
         'Введите оригинальную длинную ссылку',
